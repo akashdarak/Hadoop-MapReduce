@@ -59,13 +59,7 @@ public class Word1b {
 					int startyear = line.indexOf(",") + 2; 	
 					year = line.substring(startyear,startyear+4);	
 				}
-				/*
-				else if(line.toLowerCase().contains("january")){
-					int startyear = line.indexOf(":") + 10; 	
-					year = line.substring(startyear,startyear+4);
-				}
-				*/
-				
+			
 				else{
 					int startyear = line.indexOf(":") + 2; 	
 					year = line.substring(startyear,startyear+4);
